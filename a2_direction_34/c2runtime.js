@@ -17069,14 +17069,6 @@ cr.behaviors.Pin = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite,
 	cr.behaviors.Pin,
-	cr.behaviors.EightDir,
-	cr.system_object.prototype.cnds.OnLayoutStart,
-	cr.behaviors.Pin.prototype.acts.Pin,
-	cr.behaviors.EightDir.prototype.cnds.IsMoving,
-	cr.system_object.prototype.cnds.Compare,
-	cr.behaviors.EightDir.prototype.exps.MovingAngle,
-	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
-	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
-	cr.plugins_.Sprite.prototype.acts.SetAnim
+	cr.behaviors.EightDir
 ];};
 
